@@ -12,10 +12,10 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 420px;
   background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 10px;
   border: 1px solid #ccc;
 }
 .topSection {
@@ -28,16 +28,81 @@
   font-size: 20px;
   font-weight: bold;
 }
-.addBtn {
-  padding: 0.4rem 1rem;
-  font-weight: bold;
-  border-radius: 8px;
-  background-color: #000;
-  color: #fff;
-  border: none;
-}
+
 .resultSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* form style */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+  margin-bottom: 30px;
+}
+input {
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input[type='radio'] {
+  margin-left: 10px;
+}
+.radioBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+}
+.expenseBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 135px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* btn */
+.btn {
+  outline: none;
+  padding: 8px 10px;
+  width: 70px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+}
+.primary {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.cancel {
+  background-color: #fff;
+  color: #dc2626;
+  border: 1px solid #dc2626;
+}
+/* transactions */
+.transaction {
+  /* background-color: #f0fdf4; */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  /* border-right: 4px solid #16a34a; */
+}
+
